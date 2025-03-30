@@ -120,7 +120,7 @@ const gamesData: Game[] = [
 const categories = ["all", ...Array.from(new Set(gamesData.map((game) => game.category)))]
 
 // Proxy server URL - replace with your deployed proxy URL
-const PROXY_URL = "https://riseonlinesolutions.com/proxy?url="
+const PROXY_URL = "https://g4-m3ify-proxy.vercel.app/proxy?url="
 
 export function GameLibrary() {
   const [searchTerm, setSearchTerm] = useState("")
